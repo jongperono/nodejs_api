@@ -1,0 +1,25 @@
+GET http://localhost:3000/userType
+
+###
+GET http://localhost:3000/userType/626f7274fdf6ab6aaaf53bd3
+
+
+###
+POST http://localhost:3000/userType
+Content-Type: application/json
+
+{
+    "id":70,
+    "name":"sample user type 70"
+}
+
+###
+DELETE http://localhost:3000/userType/626f365dddcbf1d2986e32ff
+
+###
+PATCH http://localhost:3000/userType/626f7274fdf6ab6aaaf53bd3
+Content-Type: application/json
+
+{
+    "name":" NEW sample user type 7"
+}
