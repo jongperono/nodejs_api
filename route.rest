@@ -21,5 +21,6 @@ PATCH http://localhost:3000/userType/626f7274fdf6ab6aaaf53bd3
 Content-Type: application/json
 
 {
-    "name":" NEW sample user type 7"
+    "id":61,
+    "name":" NEW sample user type 61"
 }
