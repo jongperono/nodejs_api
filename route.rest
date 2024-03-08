@@ -16,6 +16,8 @@ Content-Type: application/json
 ###
 DELETE http://localhost:3000/userType/626f365dddcbf1d2986e32ff
 
+
+
 ###
 PATCH http://localhost:3000/userType/626f7274fdf6ab6aaaf53bd3
 Content-Type: application/json
