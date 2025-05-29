@@ -16,3 +16,6 @@ app.use(express.json())
 const userTypeRouter = require('./routes/userType')
 app.use('/userType', userTypeRouter)
 
+const playerRouter = require('./routes/player')
+app.use('/player', playerRouter)
+
